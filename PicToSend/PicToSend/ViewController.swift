@@ -5,6 +5,7 @@
 //  Created by JayaShankar Mangina on 12/6/21.
 //
 
+import MultipeerConnectivity
 import UIKit
 
 class ViewController: UIViewController {
@@ -43,6 +44,29 @@ class ViewController: UIViewController {
         present(picker, animated: true)
     }
     
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        guard let image = info[.editedImage] as? UIImage else { return }
+
+        dismiss(animated: true)
+
+        images.insert(image, at: 0)
+        collectionView?.reloadData()
+
+        if mcSession.connectedPeers.count > 0 {
+
+            if let imageData = image.pngData() {
+
+                do {
+                    try mcSession.send(imageData, toPeers: mcSession.connectedPeers, with: .reliable)
+                } catch {
+                    let ac = UIAlertController(title: "Send error", message: error.localizedDescription, preferredStyle: .alert)
+                    ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    present(ac, animated: true)
+                }
+            }
+        }
+    }
+
     
     @objc func showConnectionPrompt() {
         let ac = UIAlertController(title: "Connect to others", message: nil, preferredStyle: .actionSheet)
