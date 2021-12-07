@@ -42,7 +42,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         
         //Arrays for Both Left and Right BarButtonItems
         navigationItem.leftBarButtonItems = [LeftBarButtonTwo, leftBarButtonOne]
-        navigationItem.rightBarButtonItems = [RightBarButtonOne, RightBarButtonTwo]
+        navigationItem.rightBarButtonItems = [RightBarButtonTwo, RightBarButtonOne]
         
         //We have declared peerID here with MCPeerID method,
         //this is how the device will be visible/shown to others on the session
