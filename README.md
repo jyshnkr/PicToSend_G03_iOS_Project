@@ -13,7 +13,7 @@ Pic-To-Send iOS Application Repository
 
 # Project Demo
 
-![Project Demonstration](/Design Prototypes/Project Demo Gifs/project-demo.gif)
+![Project Demonstration](https://github.com/jyshnkr/PicToSend_G03_iOS_Project/blob/main/Design%20Prototypes/Project%20Demo%20Gifs/project-demo.gif)
 
 # How to run the application:
 
