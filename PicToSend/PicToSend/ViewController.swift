@@ -38,7 +38,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         
         //RightBarButtonItems
         let RightBarButtonOne = UIBarButtonItem(image: UIImage(named: "message SVG"), style: .plain, target: self, action: #selector(sendMessage))
-		let RightBarButtonTwo = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(importPicture))
+		let RightBarButtonTwo = UIBarButtonItem(image: UIImage(named: "gallery SVG"), style: .plain, target: self, action: #selector(importPicture))
         
         //Arrays for Both Left and Right BarButtonItems
         navigationItem.leftBarButtonItems = [LeftBarButtonTwo, leftBarButtonOne]
