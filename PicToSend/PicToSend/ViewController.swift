@@ -185,13 +185,13 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 
     //Function to start the Session hosting
 	func startHosting(action: UIAlertAction) {
-		mcAdvertiserAssistant = MCAdvertiserAssistant(serviceType: "hws-project25", discoveryInfo: nil, session: mcSession)
+		mcAdvertiserAssistant = MCAdvertiserAssistant(serviceType: "PicToSend", discoveryInfo: nil, session: mcSession)
 		mcAdvertiserAssistant.start()
 	}
 
     //Function to join the session
 	func joinSession(action: UIAlertAction) {
-		let mcBrowser = MCBrowserViewController(serviceType: "hws-project25", session: mcSession)
+		let mcBrowser = MCBrowserViewController(serviceType: "PicToSend", session: mcSession)
 		mcBrowser.delegate = self
 		present(mcBrowser, animated: true)
 	}
