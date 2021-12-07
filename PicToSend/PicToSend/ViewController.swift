@@ -33,7 +33,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 		title = "PicToSend"
         
         //LeftBarButton Items
-        let leftBarButtonOne = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(showConectedDevices))
+        let leftBarButtonOne = UIBarButtonItem(image: UIImage(named: "info SVG"), style: .plain, target: self, action: #selector(showConectedDevices))
         let LeftBarButtonTwo = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(showConnectionPrompt))
         
         //RightBarButtonItems
