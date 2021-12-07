@@ -11,6 +11,9 @@ Pic-To-Send iOS Application Repository
 
 ![iPhone 13 Pro Max - 4](https://user-images.githubusercontent.com/77645775/144723896-2a199c68-844a-41e3-9a24-58d14a179b95.jpg)
 
+# Project Demo
+
+![Project Demonstration](/Design Prototypes/Project Demo Gifs/project-demo.gif)
 
 # How to run the application:
 
