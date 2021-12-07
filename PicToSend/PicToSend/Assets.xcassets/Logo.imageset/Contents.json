@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "LOGO MD.png",
+      "filename" : "PTS LOGO.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "LOGO MD@2x.png",
+      "filename" : "PTS LOGO-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "LOGO MD@3x.png",
+      "filename" : "PTS LOGO-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
