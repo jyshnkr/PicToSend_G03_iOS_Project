@@ -34,10 +34,10 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         
         //LeftBarButton Items
         let leftBarButtonOne = UIBarButtonItem(image: UIImage(named: "info SVG"), style: .plain, target: self, action: #selector(showConectedDevices))
-        let LeftBarButtonTwo = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(showConnectionPrompt))
+        let LeftBarButtonTwo = UIBarButtonItem(image: UIImage(named: "connection SVG"), style: .plain, target: self, action: #selector(showConnectionPrompt))
         
         //RightBarButtonItems
-        let RightBarButtonOne = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: #selector(sendMessage))
+        let RightBarButtonOne = UIBarButtonItem(image: UIImage(named: "message SVG"), style: .plain, target: self, action: #selector(sendMessage))
 		let RightBarButtonTwo = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(importPicture))
         
         //Arrays for Both Left and Right BarButtonItems
