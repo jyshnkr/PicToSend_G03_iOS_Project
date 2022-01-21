@@ -1,6 +1,8 @@
 # PicToSend_G03_iOS_Project
 Pic-To-Send is an iOS mobile application that let you share pictures and messages with the others in real-time. Multi-peer connectivity framework has been used in this application, which allows users to make direct connections to those nearby.
 
+<img src="https://github.com/jyshnkr/PicToSend_G03_iOS_Project/blob/main/PicToSend/PicToSend/Assets.xcassets/Logo.imageset/PTS%20LOGO-1.png" width="250" height="250">
+
 # Application User Interface - Design Prototypes
 ![Design_01](/Design_Prototypes/Prototypes/Prototype_01.png)
 ![Design_01](/Design_Prototypes/Prototypes/Prototype_02.png)
