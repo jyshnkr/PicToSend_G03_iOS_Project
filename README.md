@@ -1,9 +1,9 @@
 # PicToSend_G03_iOS_Project
 Pic-To-Send iOS Application Repository
 
-# Application User Interface
+# Application User Interface - Design Prototypes
 
-![iPhone 13 Pro Max - 1](https://user-images.githubusercontent.com/77645775/144723888-755b6d09-e8c4-4eae-b330-37779b95914a.jpg)
+<img src="/Design_Prototypes/Prototypes/iPhone 13 Pro Max - 1.jpg" width="350" height="350">
 
 ![iPhone 13 Pro Max - 2](https://user-images.githubusercontent.com/77645775/144723890-e965316a-b7e3-4a2a-97aa-861211683f1e.jpg)
 
