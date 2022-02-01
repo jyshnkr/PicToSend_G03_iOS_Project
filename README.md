@@ -6,3 +6,4 @@ Pic-To-Send is an iOS mobile application that let you share pictures and message
 
 The documentation, Installation and the working of the application were explained in Project's Wiki. [Click Here](https://github.com/jyshnkr/PicToSend_G03_iOS_Project/wiki) to navigate to the Wiki.
 
+[Click here to see the Project Demonstration](https://github.com/jyshnkr/PicToSend_G03_iOS_Project/wiki/Project-Demonstration)
